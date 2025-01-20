@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>my portfolio</title>
+  </head>
+  <body class="flex flex-col md:flex-row bg-backgroundGrey pb-10 justify-center pt-16">
+    <aside class="order-1 md:w-1/6 flex justify-around">
+      <img class="md:w-3/4 h-fit border-accentPurple border-4 rounded-full" alt="my melody icon" src="/pfpIcon.jpg"/>
+    </aside>
+    
+    <main class="order-3 md:order-2 px-8 md:px-0 md:w-2/3 xl:w-1/2 3xl:w-2/5">
+      <h1 class="mt-6 md:mt-4 text-6xl font-bold tracking-wide">Karson Nguyen</h1>
+      
+      <section class="mt-6">
+        <h2 class="text-subHeaderPurple text-xl font-bold">SOFTWARE DEVELOPER</h2>
+        <p class="mt-8 font-bold">
+          I’m a recent grad from SFU based in East Vancouver with almost 2 years of experience in full-stack development.
+          In my free time, you can see me working on mods for Stardew Valley, helping <a>my friends make games on Unity</a>,
+          or scouring around Vancouver for new restaurants to try.
+        </p>
+      </section>
+      
+      <section class="mt-6">
+        <h2 class="text-subHeaderPink text-xl font-bold">EXPERIENCE</h2>
+        
+        <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+          <div class="flex justify-between">
+            <h3 class="text-xl font-bold">Peloton Technologies</h3>
+            <p>Victoria, BC</p>
+          </div>
+          <img class="mt-4 w-full" alt="border" src="/purpleDash.svg"/>
+          <div class="mt-4 flex justify-between">
+            <p>Junior Full Stack Developer</p>
+            <p>May 2024 - Dec 2024</p>
+          </div>
+          <p class="mt-2">C#, Typescript, ASP.NET Core, EF Core, SQL Server, Figma, GIT</p>
+          <p class="mt-2">Something something project description</p>
+        </section>
+        
+        <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+          <div class="flex justify-between">
+            <h3 class="text-xl font-bold">BGC Engineering Inc.</h3>
+            <p>Vancouver, BC</p>
+          </div>
+          <img class="mt-4 w-full" alt="border" src="/pinkDash.svg"/>
+          <p class="mt-4">Role</p>
+          <p class="mt-2">Techs</p>
+          <p class="mt-2">Desc</p>
+        </section>
+        
+        <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+          <div class="flex justify-between">
+            <h3 class="text-xl font-bold">Appnovation</h3>
+            <p>Vancouver, BC</p>
+          </div>
+          <img class="mt-4 w-full" alt="border" src="/yellowDash.svg"/>
+          <p class="mt-4">Role</p>
+          <p class="mt-2">Techs</p>
+          <p class="mt-2">Desc</p>
+        </section>
+      </section>
+      
+      <section class="mt-8">
+        <h2 class="text-subHeaderPink text-xl font-bold">PROJECTS</h2>
+        
+        <section class="mt-6">
+          <h3 class="text-xl font-bold">My Stardew Valley Mods</h3>
+          <div class="lg:flex">
+            <section class="mt-6 mr-4 bg-white rounded-2xl py-8 px-4">
+              <h4 class="text-xl font-bold">Better Truffles</h4>
+              <img class="mt-4 w-full" alt="border" src="/plumDash.svg"/>
+              <p class="mt-4">420 Downloads</p>
+              <p class="mt-2">Desc</p>
+              <button class="mt-4 bg-accentPlum text-white font-bold rounded-md tracking-wide h-8 w-full">VIEW PAGE</button>
+            </section>
+
+            <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+              <h4 class="text-xl font-bold">Empty Jar Bubbles</h4>
+              <img class="mt-4 w-full" alt="border" src="/plumDash.svg"/>
+              <p class="mt-4">69 Downloads</p>
+              <p class="mt-2">Desc</p>
+              <button class="mt-4 bg-accentPlum text-white font-bold rounded-md tracking-wide h-8 w-full">VIEW PAGE</button>
+            </section>
+          </div>
+        </section>
+        
+        <section class="mt-6">
+          <h3 class="text-xl font-bold">Other Projects</h3>
+          <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+            <h4 class="text-xl font-bold">Better Truffles</h4>
+            <img class="mt-4 w-full" alt="border" src="/orangeDash.svg"/>
+            <p class="mt-4">69 Downloads</p>
+            <p class="mt-2">Desc</p>
+          </section>
+        </section>
+      </section>
+      
+      <section class="mt-6">
+        <h2 class="text-subHeaderPink text-xl font-bold">EDUCATION</h2>
+        <section class="mt-6 bg-white rounded-2xl py-8 px-4">
+          <h4 class="text-xl font-bold">Simon Fraser University</h4>
+          <img class="mt-4 w-full" alt="border" src="/pinkDash.svg"/>
+          <p class="mt-4">BSc. Computer Science - Software Systems</p>
+          <p class="mt-2">Graduation Date: Dec 2024</p>
+        </section>
+      </section>
+      
+    </main>
+    <aside class="order-2 md:order-3 flex flex-row justify-center md:justify-normal mt-4 md:mt-0 gap-4 md:flex-col md:ml-8 md:w-1/6">
+        <button class="w-12 h-12 p-3 md:w-16 md:h-16 md:p-4 bg-white rounded-full flex justify-center items-center">
+          <img class="w-full h-full" alt="email button" src="/mail.svg"/>
+        </button>
+        <button class="w-12 h-12 p-3 md:w-16 md:h-16 md:p-4 bg-white rounded-full flex justify-center items-center">
+          <img alt="linkedin button" src="/linkedin.svg"/>
+        </button>
+        <button class="w-12 h-12 p-3 md:w-16 md:h-16 md:p-4 bg-white rounded-full flex justify-center items-center">
+          <img alt="github button" src="/github.svg"/>
+        </button>
+    </aside>
+  </body>
+</html>
