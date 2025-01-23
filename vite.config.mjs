@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: '/Portfolio',
   server: {
     open: "/index.html",
   },
@@ -8,5 +9,5 @@ export default defineConfig({
     outDir: "../dist",
     emptyOutDir: true
   },
-  root: "docs",
+  root: "src",
 });

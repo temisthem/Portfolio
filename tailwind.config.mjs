@@ -1,5 +1,5 @@
 export default {
-  content: ["./docs/**/*.{html,js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
       screens: {
